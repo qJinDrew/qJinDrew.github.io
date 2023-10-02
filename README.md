@@ -1,2 +1,2 @@
-# qJinDrew.github.io
+# qjindrew.github.io
 Повторение HTML
