@@ -8,16 +8,36 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-		crossorigin="anonymous"></script>
+		integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+		</script>
+	<!-- Теги для корректного использования иконки -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<!-- Style Cards-->
 	<style>
+		.card {
+			border-radius: 1em;
+			text-align: center;
+			padding: 1em;
+		}
 
+		.card:hover {
+			background-color: rgba(0, 0, 0, 0.1);
+		}
+
+		.card img {
+			border-radius: 1em;
+		}
 	</style>
-	<title>My favorite places</title>
+	<title>Favorite places</title>
 </head>
 
 <body>
+
 	<!-- Navbar-->
+
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<div class="container">
 			<a class="navbar-brand p-0" href="/">
@@ -41,7 +61,51 @@
 		</div>
 	</nav>
 
+	<!-- Cards 	Фото брал с: https://unsplash.com/  -->
 
+	<div class="container my-5">
+		<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5"> <!-- Адаптация -->
+			<!-- 1 Card -->
+			<div class="col">
+				<div class="card">
+					<img src="https://images.unsplash.com/photo-1557409518-691ebcd96038" class="card-img-top" alt="My image">
+					<div class="card-body">
+						<h5 class="card-title">Tokyo, Japan</h5>
+						<p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять
+							основную часть содержимого карты.</p>
+						<a href="https://images.unsplash.com/photo-1557409518-691ebcd96038" target='_blank'
+							class="btn btn-primary">Large photo</a>
+					</div>
+				</div>
+			</div>
+			<!-- 2 Card -->
+			<div class="col">
+				<div class="card">
+					<img src="https://images.unsplash.com/photo-1580655653885-65763b2597d0" class="card-img-top" alt="My image">
+					<div class="card-body">
+						<h5 class="card-title">Hollywood, Los Angeles, CA, USA</h5>
+						<p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять
+							основную часть содержимого карты.</p>
+						<a href="https://images.unsplash.com/photo-1580655653885-65763b2597d0" target='_blank'
+							class="btn btn-primary">Large photo</a>
+					</div>
+				</div>
+			</div>
+			<!-- 3 Card -->
+			<div class="col">
+				<div class="card">
+					<img src="https://images.unsplash.com/photo-1493707553966-283afac8c358" class="card-img-top" alt="My image">
+					<div class="card-body">
+						<h5 class="card-title">Eiffel Tower, Paris, France</h5>
+						<p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять
+							основную часть содержимого карты.</p>
+						<a href="https://images.unsplash.com/photo-1493707553966-283afac8c358" target='_blank'
+							class="btn btn-primary">Large photo</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 
 </html>
