@@ -1,2 +1,2 @@
-# [qjindrew.github.io](https://qjindrew.github.io/)
-HTML Project
+# [Сайт проекта](https://qjindrew.github.io/html_project/)
+HTML  |  Практика
